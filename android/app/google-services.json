@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "84435862554",
+    "firebase_url": "https://kermaneno1.firebaseio.com",
+    "project_id": "kermaneno1",
+    "storage_bucket": "kermaneno1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84435862554:android:701eb1cf7c254164efbda3",
+        "android_client_info": {
+          "package_name": "com.kermaneno.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84435862554-nu3mch1er20tkd3nm9g8lu8fp3afue69.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5IeA6Go9MlpH6A3Hsi7ZKsCYdBqjfUec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84435862554-nu3mch1er20tkd3nm9g8lu8fp3afue69.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
