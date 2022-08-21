@@ -1,0 +1,104 @@
+{
+
+    "welcome to" : "خوش آمدید به ",
+    "login to continue": "برای ادامه وارد شوید",
+    "welcome-intro": "آخرین اخبار کرمان را ببینید، جستجو کنید و به دوستان خود بگوئید!",
+    "skip": "بی‌خیال",
+
+    "don't have an account?" : "حساب کاربری ندارید؟",
+    "create" : "ایجاد",
+    "create account" : "ایجاد حساب کاربری",
+    "login" : "ورود",
+    "login to access all features" : "برای دسترسی به کلیه امکانات اپلیکیشن، وارد شوید.",
+    "follow the simple steps": "مراحل ساده ثبت نام را انجام دهید",
+    "already have an account?": "حساب کاربری دارید؟",
+
+    "search contents" : "جستجوی اخبار",
+    "popular contents" : "محبوب‌ترین خبرها",
+    "recent contents" : "آخرین خبرها",
+    "view all" : "مشاهده همه",
+
+    "search" : "جستجو",
+    "search for contents" : "جستجوی خبرها",
+    "recent searches" : "آخرین جستجوها",
+    "search-description" :  "تا کنون جستجویی انجام ندادید.",
+    "try again" : "مجددا تلاش کنید",
+    "categories" : "دسته‌بندی‌ها",
+
+    "clear all" : "پاک کردن همه",
+    "bookmark is empty" : "قسمت محتوای محبوب شما خالی است",
+    "save your favourite contents here" : "محتوای محبوب شما اینجا ذخیره می‌شود",
+    "added to your bookamrk" : "Added to your bookmark",
+
+    "no categories found": "No categories found",
+    "no contents found" : "No artiles found",
+    "no internet" : "No internet connection!",
+    "check your internet connection!" : "Check your internet connection!",
+    "contents you might love" : "این مطالب هم بخوانید",
+    
+    "comments" : "نظرات",
+    "view comments" : "مشاهده نظرات",
+    "write a comment" : "نظر شما چیست؟",
+    "no comments found" : "نظری ثبت نشده",
+    "be the first to comment" : "Be the first to comment",
+    "login to make comments" : "Login to make comments",
+    "comment success title" : "Comment submitted successfully",
+    "comment success description" : "Your comment has been submitted for the review. You will see your comment in this list after the review.\nThanks",
+    "you can't delete others comment" : "You can't delete others comment",
+    "you can't edit others comment" : "You can't edit others comment",
+    "update comment" : "Update Comment",
+
+    "delete" : "حذف",
+    "update" : "به‌روزرسانی",
+
+    "notifications" : "اطلاع‌رسانی‌ها",
+    "notification details" : "Notification Details",
+    "no notification title": "No notifications found!",
+    "no notification description" : "شما هنوز اطلاع‌رسانی خاصی دریافت نکردید، برای اطمینان از دریافت اطلاع رسانی در تنظیمات آن را فعال کنید.",
+
+    "settings": "تنظیمات",
+    "general settings" : "تنظیمات عمومی",
+    "social settings" : "اجتماعی",
+    "about app" : "درباره",
+    "dark mode" : "حالت تاریک",
+    "get notifications" : "دریافت اعلان",
+    "contact us" : "ارتباط با ما",
+    "rate this app" : "به ما امتیاز بدهید!",
+    "licence" : "مجوز",
+    "privacy policy" : "حریم خصوصی",
+    "about us" : "درباره ما",
+    "logout" : "خروج",
+    "our website" : "وب سایت کرمان نو",
+    "facebook page" : "صفحه فیسبوک",
+    "youtube channel" : "کانال یوتوب",
+
+    "logout title" : "از اپلیکیشن خارج می‌شوید؟",
+    "logout description" : "Do you really want to logout from the app? You will lose all of your saved data. Continue?",
+
+    "language" : "زبان",
+    "select language" : "انتخاب زبان",
+
+    "explore" : "گشت و گذار در خبرها",
+    "videos" : "ویدئوها",
+    "video contents": "ویدئوها",
+    "twitter": "توییتر",
+    "bookmark": "محبوب",
+    "bookmarks": "محبوب‌ها",
+
+    "clear all notification-dialog": "Do you want to clear all the notification data?",
+    "clear all bookmark-dialog": "Do you want to clear all the saved articles?",
+
+    "buy now" : "Purchase this app",
+    "buy now subtitle" : "Buy the full source code here",
+
+    "accept terms": "موافقم",
+    "flag comment" : "Flag this comment",
+    "unflag comment" : "Unflag this comment",
+    "report" : "گزارش",
+    "report-info" : "Your report has been sent succesfully to the admins",
+    "comment flagged" : "This comment has been flagged!"
+    
+
+
+
+}

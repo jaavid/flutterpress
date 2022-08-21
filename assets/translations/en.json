@@ -1,0 +1,104 @@
+{
+
+    "welcome to" : "Welcome to",
+    "login to continue": "Login to Continue",
+    "welcome-intro": "Explore the latest news and events happening in the world in minutes. Subscribe and get notified of all of our articles & share them with your friends..",
+    "skip": "Skip",
+
+    "don't have an account?" : "Don't have an account?",
+    "create" : "Create",
+    "create account" : "Create Account",
+    "login" : "Login",
+    "login to access all features" : "Login to access all features",
+    "follow the simple steps": "Follow the simple steps",
+    "already have an account?": "Already have an account?",
+
+    "search contents" : "Search News",
+    "popular contents" : "Popular News",
+    "recent contents" : "Latest News",
+    "view all" : "view all",
+
+    "search" : "Search",
+    "search for contents" : "Search for news",
+    "recent searches" : "Recent Searches",
+    "search-description" :  "You haven't searched for any items yet.\n Try now - we will help you!",
+    "try again" : "Try again!",
+    "categories" : "Categories",
+
+    "clear all" : "Clear all",
+    "bookmark is empty" : "Your Bookmark is empty !!",
+    "save your favourite contents here" : "Save your favourite news here",
+    "added to your bookamrk" : "Added to your bookmark",
+
+    "no categories found": "No categories found",
+    "no contents found" : "No artiles found",
+    "no internet" : "No internet connection!",
+    "check your internet connection!" : "Check your internet connection!",
+    "contents you might love" : "Articles you might love",
+    
+    "comments" : "Comments",
+    "view comments" : "View Comments",
+    "write a comment" : "Write A Comment", 
+    "no comments found" : "No comments found",
+    "be the first to comment" : "Be the first to comment",
+    "login to make comments" : "Login to make comments",
+    "comment success title" : "Comment submitted successfully",
+    "comment success description" : "Your comment has been submitted for the review. You will see your comment in this list after the review.\nThanks",
+    "you can't delete others comment" : "You can't delete others comment",
+    "you can't edit others comment" : "You can't edit others comment",
+    "update comment" : "Update Comment",
+
+    "delete" : "Delete",
+    "update" : "Update",
+
+    "notifications" : "Notifications",
+    "notification details" : "Notification Details",
+    "no notification title": "No notifications found!",
+    "no notification description" : "You haven't received any notifications yet. Make sure you have turned on the notifications from the settings.",
+
+    "settings": "Settings",
+    "general settings" : "General Settings",
+    "social settings" : "Social Settings",
+    "about app" : "About App",
+    "dark mode" : "Dark Mode",
+    "get notifications" : "Get Notifications",
+    "contact us" : "Contact Us",
+    "rate this app" : "Rate this app",
+    "licence" : "Licence",
+    "privacy policy" : "Privacy Policy",
+    "about us" : "About Us",
+    "logout" : "Logout",
+    "our website" : "Our Website",
+    "facebook page" : "Facebook Page",
+    "youtube channel" : "Youtube Channel",
+
+    "logout title" : "Logout from the app?",
+    "logout description" : "Do you really want to logout from the app? You will lose all of your saved data. Continue?",
+
+    "language" : "Language",
+    "select language" : "Select Language",
+
+    "explore" : "Explore",
+    "videos" : "Videos",
+    "video contents": "Video Articles",
+    "twitter": "Twitter",
+    "bookmark": "Bookmark",
+    "bookmarks": "Bookmarks",
+
+    "clear all notification-dialog": "Do you want to clear all the notification data?",
+    "clear all bookmark-dialog": "Do you want to clear all the saved articles?",
+
+    "buy now" : "Purchase this app",
+    "buy now subtitle" : "Buy the full source code here",
+
+    "accept terms": "Accept terms & conditions",
+    "flag comment" : "Flag this comment",
+    "unflag comment" : "Unflag this comment",
+    "report" : "Report",
+    "report-info" : "Your report has been sent succesfully to the admins",
+    "comment flagged" : "This comment has been flagged!"
+    
+
+
+
+}
