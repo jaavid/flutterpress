@@ -15,3 +15,6 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 # Flutter WordPress News App for Android & iOS
+
+- firebase notification : https://wordpress.org/plugins/fcm-push-notification-from-wp/
+- Login & registeration : https://wordpress.org/plugins/jwt-authentication-for-wp-rest-api/
