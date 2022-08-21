@@ -28,32 +28,32 @@
     "clear all" : "پاک کردن همه",
     "bookmark is empty" : "قسمت محتوای محبوب شما خالی است",
     "save your favourite contents here" : "محتوای محبوب شما اینجا ذخیره می‌شود",
-    "added to your bookamrk" : "Added to your bookmark",
+    "added to your bookamrk" : "افزودن به محبوب ها",
 
-    "no categories found": "No categories found",
-    "no contents found" : "No artiles found",
-    "no internet" : "No internet connection!",
-    "check your internet connection!" : "Check your internet connection!",
+    "no categories found": "دسته بندی‌ای پیدا نشد",
+    "no contents found" : "محتوایی پیدا نشد",
+    "no internet" : "اینترنت قطعه؟",
+    "check your internet connection!" : "اینترنت رو چک کن!",
     "contents you might love" : "این مطالب هم بخوانید",
     
     "comments" : "نظرات",
     "view comments" : "مشاهده نظرات",
     "write a comment" : "نظر شما چیست؟",
     "no comments found" : "نظری ثبت نشده",
-    "be the first to comment" : "Be the first to comment",
-    "login to make comments" : "Login to make comments",
-    "comment success title" : "Comment submitted successfully",
-    "comment success description" : "Your comment has been submitted for the review. You will see your comment in this list after the review.\nThanks",
-    "you can't delete others comment" : "You can't delete others comment",
-    "you can't edit others comment" : "You can't edit others comment",
-    "update comment" : "Update Comment",
+    "be the first to comment" : "اولین نظر را شما ثبت کنید",
+    "login to make comments" : "برای ثبت نظر وارد شوید",
+    "comment success title" : "نظر با موفقیت ثبت شد",
+    "comment success description" : "نظر شما بعد از تایید منتشر می‌شود",
+    "you can't delete others comment" : "شما نمیتوانید نظر دیگران را پاک کنید",
+    "you can't edit others comment" : "شما نمیتوانید نظر دیگران را ویرایش کنید",
+    "update comment" : "ویرایش نظر",
 
     "delete" : "حذف",
     "update" : "به‌روزرسانی",
 
     "notifications" : "اطلاع‌رسانی‌ها",
-    "notification details" : "Notification Details",
-    "no notification title": "No notifications found!",
+    "notification details" : "جزئیات اطلاع‌رسانی",
+    "no notification title": "اطلاع رسانی‌ای موجود نیست",
     "no notification description" : "شما هنوز اطلاع‌رسانی خاصی دریافت نکردید، برای اطمینان از دریافت اطلاع رسانی در تنظیمات آن را فعال کنید.",
 
     "settings": "تنظیمات",
@@ -73,7 +73,7 @@
     "youtube channel" : "کانال یوتوب",
 
     "logout title" : "از اپلیکیشن خارج می‌شوید؟",
-    "logout description" : "Do you really want to logout from the app? You will lose all of your saved data. Continue?",
+    "logout description" : "واقعا تصمیم به خروج دارید؟",
 
     "language" : "زبان",
     "select language" : "انتخاب زبان",
@@ -85,18 +85,15 @@
     "bookmark": "محبوب",
     "bookmarks": "محبوب‌ها",
 
-    "clear all notification-dialog": "Do you want to clear all the notification data?",
-    "clear all bookmark-dialog": "Do you want to clear all the saved articles?",
-
-    "buy now" : "Purchase this app",
-    "buy now subtitle" : "Buy the full source code here",
+    "clear all notification-dialog": "همه اطلاع رسانی ها را پاک میکنید؟",
+    "clear all bookmark-dialog": "همه محبوب ها را پاک میکنید؟",
 
     "accept terms": "موافقم",
-    "flag comment" : "Flag this comment",
-    "unflag comment" : "Unflag this comment",
+    "flag comment" : "مشکوک است",
+    "unflag comment" : "مشکوک نیست",
     "report" : "گزارش",
-    "report-info" : "Your report has been sent succesfully to the admins",
-    "comment flagged" : "This comment has been flagged!"
+    "report-info" : "گزارش شما به مدیر ارسال شد",
+    "comment flagged" : "نظر مشکوک ثبت شد"
     
 
 
