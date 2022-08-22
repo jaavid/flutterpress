@@ -18,3 +18,4 @@ samples, guidance on mobile development, and a full API reference.
 
 - firebase notification : https://wordpress.org/plugins/fcm-push-notification-from-wp/
 - Login & registeration : https://wordpress.org/plugins/jwt-authentication-for-wp-rest-api/
+- Popular Posts (api)   : https://wordpress.org/plugins/wordpress-popular-posts/

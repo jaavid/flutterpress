@@ -2,15 +2,17 @@ import 'package:flutter/material.dart';
 
 class Config {
   static const appName = 'Kermaneno';
-  static const supportEmail = 'javid.momeni@gmail.com';
+  static const supportEmail = 'kermaneno.tv@gmail.com';
   static const privacyPolicyUrl = 'https://kermaneno.ir/privacy';
   static const iOSAppID = '000000';
 
   //SOCIAL LINKS
-  static const String facebookPageUrl = 'https://www.facebook.com/kermaneno';
+  static const String facebookPageUrl = 'https://facebook.com/kermaneno';
+  static const String aparatPageUrl = 'https://aparat.com/kermane_no';
+  static const String instagramPageUrl = 'https://instagram.com/kermaneno.news';
   static const String youtubeChannelUrl =
-      'https://www.youtube.com/channel/kermaneno';
-  static const String twitterUrl = 'https://twitter.com/kermaneno';
+      'https://www.youtube.com/channel/kermane_no';
+  static const String twitterUrl = 'https://twitter.com/kermane_no';
 
   //app theme color
   final Color appThemeColor = Color(0xffa61f23);

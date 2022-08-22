@@ -138,7 +138,7 @@ class _LoginPageState extends State<LoginPage> {
                       fontWeight: FontWeight.w700,
                       wordSpacing: 1,
                       letterSpacing: -0.7),
-                ),
+                ).tr(),
                 Container(
                   height: 50,
                   margin: EdgeInsets.only(top: 10, bottom: 30),
@@ -168,7 +168,7 @@ class _LoginPageState extends State<LoginPage> {
                       fontWeight: FontWeight.w700,
                       wordSpacing: 1,
                       letterSpacing: -0.7),
-                ),
+                ).tr(),
                 Container(
                   height: 50,
                   margin: EdgeInsets.only(top: 10, bottom: 10),

@@ -161,96 +161,8 @@ class _SettingPageState extends State<SettingPage>
                               fontWeight: FontWeight.w500,
                               color: Theme.of(context).colorScheme.primary),
                         ).tr(),
-                        trailing: Icon(Feather.chevron_right),
+                        trailing: Icon(Feather.chevron_left),
                         onTap: () => nextScreenPopup(context, LanguagePopup()),
-                      ),
-                    ],
-                  ),
-                ),
-                SizedBox(
-                  height: 15,
-                ),
-                Container(
-                  padding: EdgeInsets.all(20),
-                  decoration: BoxDecoration(
-                      color: Theme.of(context).colorScheme.onPrimary),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text(
-                        'about app',
-                        style: TextStyle(
-                            fontSize: 16,
-                            fontWeight: FontWeight.w700,
-                            letterSpacing: -0.7,
-                            wordSpacing: 1),
-                      ).tr(),
-                      SizedBox(height: 15),
-                      ListTile(
-                        contentPadding: EdgeInsets.all(0),
-                        leading: CircleAvatar(
-                          backgroundColor: Colors.blueAccent,
-                          radius: 18,
-                          child: Icon(
-                            Feather.lock,
-                            size: 18,
-                            color: Colors.white,
-                          ),
-                        ),
-                        title: Text(
-                          'privacy policy',
-                          style: TextStyle(
-                              fontSize: 16,
-                              fontWeight: FontWeight.w500,
-                              color: Theme.of(context).colorScheme.primary),
-                        ).tr(),
-                        trailing: Icon(Feather.chevron_right),
-                        onTap: () => AppService().openLinkWithCustomTab(
-                            context, Config.privacyPolicyUrl),
-                      ),
-                      _Divider(),
-                      ListTile(
-                        contentPadding: EdgeInsets.all(0),
-                        leading: CircleAvatar(
-                          backgroundColor: Colors.pinkAccent,
-                          radius: 18,
-                          child: Icon(
-                            Feather.star,
-                            size: 18,
-                            color: Colors.white,
-                          ),
-                        ),
-                        title: Text(
-                          'rate this app',
-                          style: TextStyle(
-                              fontSize: 16,
-                              fontWeight: FontWeight.w500,
-                              color: Theme.of(context).colorScheme.primary),
-                        ).tr(),
-                        trailing: Icon(Feather.chevron_right),
-                        onTap: () => AppService().launchAppReview(context),
-                      ),
-                      _Divider(),
-                      ListTile(
-                        contentPadding: EdgeInsets.all(0),
-                        leading: CircleAvatar(
-                          backgroundColor: Colors.orangeAccent,
-                          radius: 18,
-                          child: Icon(
-                            Feather.lock,
-                            size: 18,
-                            color: Colors.white,
-                          ),
-                        ),
-                        title: Text(
-                          'licence',
-                          style: TextStyle(
-                              fontSize: 16,
-                              fontWeight: FontWeight.w500,
-                              color: Theme.of(context).colorScheme.primary),
-                        ).tr(),
-                        trailing: Icon(Feather.chevron_right),
-                        onTap: () => openLicenceDialog(),
                       ),
                     ],
                   ),
@@ -292,7 +204,7 @@ class _SettingPageState extends State<SettingPage>
                               fontWeight: FontWeight.w500,
                               color: Theme.of(context).colorScheme.primary),
                         ).tr(),
-                        trailing: Icon(Feather.chevron_right),
+                        trailing: Icon(Feather.chevron_left),
                         onTap: () => AppService().openEmailSupport(context),
                       ),
                       _Divider(),
@@ -314,7 +226,7 @@ class _SettingPageState extends State<SettingPage>
                               fontWeight: FontWeight.w500,
                               color: Theme.of(context).colorScheme.primary),
                         ).tr(),
-                        trailing: Icon(Feather.chevron_right),
+                        trailing: Icon(Feather.chevron_left),
                         onTap: () => AppService().openLinkWithCustomTab(
                             context, WpConfig.websiteUrl),
                       ),
@@ -322,24 +234,47 @@ class _SettingPageState extends State<SettingPage>
                       ListTile(
                         contentPadding: EdgeInsets.all(0),
                         leading: CircleAvatar(
-                          backgroundColor: Colors.blueAccent,
+                          backgroundColor: Colors.pinkAccent,
                           radius: 18,
                           child: Icon(
-                            Feather.facebook,
+                            Feather.video,
                             size: 18,
                             color: Colors.white,
                           ),
                         ),
                         title: Text(
-                          'facebook page',
+                          'Aparat',
                           style: TextStyle(
                               fontSize: 16,
                               fontWeight: FontWeight.w500,
                               color: Theme.of(context).colorScheme.primary),
                         ).tr(),
-                        trailing: Icon(Feather.chevron_right),
+                        trailing: Icon(Feather.chevron_left),
                         onTap: () => AppService()
-                            .openLink(context, Config.facebookPageUrl),
+                            .openLink(context, Config.aparatPageUrl),
+                      ),
+                      _Divider(),
+                      ListTile(
+                        contentPadding: EdgeInsets.all(0),
+                        leading: CircleAvatar(
+                          backgroundColor: Colors.purple.shade900,
+                          radius: 18,
+                          child: Icon(
+                            Feather.instagram,
+                            size: 18,
+                            color: Colors.white,
+                          ),
+                        ),
+                        title: Text(
+                          'Instagram',
+                          style: TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.w500,
+                              color: Theme.of(context).colorScheme.primary),
+                        ).tr(),
+                        trailing: Icon(Feather.chevron_left),
+                        onTap: () => AppService()
+                            .openLink(context, Config.instagramPageUrl),
                       ),
                       _Divider(),
                       ListTile(
@@ -360,7 +295,7 @@ class _SettingPageState extends State<SettingPage>
                               fontWeight: FontWeight.w500,
                               color: Theme.of(context).colorScheme.primary),
                         ).tr(),
-                        trailing: Icon(Feather.chevron_right),
+                        trailing: Icon(Feather.chevron_left),
                         onTap: () => AppService()
                             .openLink(context, Config.youtubeChannelUrl),
                       ),
@@ -383,9 +318,31 @@ class _SettingPageState extends State<SettingPage>
                               fontWeight: FontWeight.w500,
                               color: Theme.of(context).colorScheme.primary),
                         ).tr(),
-                        trailing: Icon(Feather.chevron_right),
+                        trailing: Icon(Feather.chevron_left),
                         onTap: () =>
                             AppService().openLink(context, Config.twitterUrl),
+                      ),
+                      _Divider(),
+                      ListTile(
+                        contentPadding: EdgeInsets.all(0),
+                        leading: CircleAvatar(
+                          backgroundColor: Colors.pinkAccent,
+                          radius: 18,
+                          child: Icon(
+                            Feather.star,
+                            size: 18,
+                            color: Colors.white,
+                          ),
+                        ),
+                        title: Text(
+                          'rate this app',
+                          style: TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.w500,
+                              color: Theme.of(context).colorScheme.primary),
+                        ).tr(),
+                        trailing: Icon(Feather.chevron_left),
+                        onTap: () => AppService().launchAppReview(context),
                       ),
                     ],
                   ),
@@ -441,7 +398,7 @@ class GuestUserUI extends StatelessWidget {
                 fontWeight: FontWeight.w500,
                 color: Theme.of(context).colorScheme.primary),
           ).tr(),
-          trailing: Icon(Feather.chevron_right),
+          trailing: Icon(Feather.chevron_left),
           onTap: () => nextScreenPopup(
               context,
               LoginPage(
@@ -517,7 +474,7 @@ class UserUI extends StatelessWidget {
                 fontWeight: FontWeight.w500,
                 color: Theme.of(context).colorScheme.primary),
           ).tr(),
-          trailing: Icon(Feather.chevron_right),
+          trailing: Icon(Feather.chevron_left),
           onTap: () => openLogoutDialog(context),
         ),
       ],

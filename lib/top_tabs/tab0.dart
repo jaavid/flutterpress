@@ -38,8 +38,8 @@ class _Tab0State extends State<Tab0> {
         child: Column(
           children: [
             Featured(),
-            PopularArticles(scaffoldKey: widget.scaffoldKey),
             LattestArticles(scaffoldKey: widget.scaffoldKey),
+            PopularArticles(scaffoldKey: widget.scaffoldKey),
           ],
         ),
       ),

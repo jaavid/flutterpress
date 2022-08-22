@@ -1,10 +1,8 @@
 {
-
     "welcome to" : "خوش آمدید به ",
     "login to continue": "برای ادامه وارد شوید",
     "welcome-intro": "آخرین اخبار کرمان را ببینید، جستجو کنید و به دوستان خود بگوئید!",
     "skip": "بی‌خیال",
-
     "don't have an account?" : "حساب کاربری ندارید؟",
     "create" : "ایجاد",
     "create account" : "ایجاد حساب کاربری",
@@ -12,24 +10,20 @@
     "login to access all features" : "برای دسترسی به کلیه امکانات اپلیکیشن، وارد شوید.",
     "follow the simple steps": "مراحل ساده ثبت نام را انجام دهید",
     "already have an account?": "حساب کاربری دارید؟",
-
     "search contents" : "جستجوی اخبار",
     "popular contents" : "محبوب‌ترین خبرها",
     "recent contents" : "آخرین خبرها",
     "view all" : "مشاهده همه",
-
     "search" : "جستجو",
     "search for contents" : "جستجوی خبرها",
     "recent searches" : "آخرین جستجوها",
     "search-description" :  "تا کنون جستجویی انجام ندادید.",
     "try again" : "مجددا تلاش کنید",
     "categories" : "دسته‌بندی‌ها",
-
     "clear all" : "پاک کردن همه",
     "bookmark is empty" : "قسمت محتوای محبوب شما خالی است",
     "save your favourite contents here" : "محتوای محبوب شما اینجا ذخیره می‌شود",
     "added to your bookamrk" : "افزودن به محبوب ها",
-
     "no categories found": "دسته بندی‌ای پیدا نشد",
     "no contents found" : "محتوایی پیدا نشد",
     "no internet" : "اینترنت قطعه؟",
@@ -47,15 +41,12 @@
     "you can't delete others comment" : "شما نمیتوانید نظر دیگران را پاک کنید",
     "you can't edit others comment" : "شما نمیتوانید نظر دیگران را ویرایش کنید",
     "update comment" : "ویرایش نظر",
-
     "delete" : "حذف",
     "update" : "به‌روزرسانی",
-
     "notifications" : "اطلاع‌رسانی‌ها",
     "notification details" : "جزئیات اطلاع‌رسانی",
     "no notification title": "اطلاع رسانی‌ای موجود نیست",
     "no notification description" : "شما هنوز اطلاع‌رسانی خاصی دریافت نکردید، برای اطمینان از دریافت اطلاع رسانی در تنظیمات آن را فعال کنید.",
-
     "settings": "تنظیمات",
     "general settings" : "تنظیمات عمومی",
     "social settings" : "اجتماعی",
@@ -71,31 +62,32 @@
     "our website" : "وب سایت کرمان نو",
     "facebook page" : "صفحه فیسبوک",
     "youtube channel" : "کانال یوتوب",
-
     "logout title" : "از اپلیکیشن خارج می‌شوید؟",
     "logout description" : "واقعا تصمیم به خروج دارید؟",
-
     "language" : "زبان",
     "select language" : "انتخاب زبان",
-
     "explore" : "گشت و گذار در خبرها",
     "videos" : "ویدئوها",
     "video contents": "ویدئوها",
     "twitter": "توییتر",
     "bookmark": "محبوب",
     "bookmarks": "محبوب‌ها",
-
     "clear all notification-dialog": "همه اطلاع رسانی ها را پاک میکنید؟",
     "clear all bookmark-dialog": "همه محبوب ها را پاک میکنید؟",
-
-    "accept terms": "موافقم",
+    "accept terms": "با قوانین و مقررات اپلیکیشن موافقم",
     "flag comment" : "مشکوک است",
     "unflag comment" : "مشکوک نیست",
     "report" : "گزارش",
     "report-info" : "گزارش شما به مدیر ارسال شد",
-    "comment flagged" : "نظر مشکوک ثبت شد"
-    
-
-
-
+    "comment flagged" : "نظر مشکوک ثبت شد",
+    "Aparat" : "آپارات",
+    "Instagram" : "اینستاگرام",
+    "Username/Email" : "نام کاربری / ایمیل",
+    "Password" : "رمز",
+    "Username": "نام کاربری",
+    "Email Address" : "ایمیل",
+    "Username is required" : "نام کاربری را حتما وارد کنید",
+    "Email is required" : "ایمیل را حتما وارد کنید",
+    "Password is required": "رمز را حتما وارد کنید",
+    "Please accept the terms & conditions to continue": "فقط در صورت موافقت با قوانین میتوانید ثبت نام کنید"
 }

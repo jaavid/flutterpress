@@ -17,11 +17,6 @@ class Article {
   final String? link;
   final int? catId;
   final List? tags;
-  String format(Date d) {
-    final f = d.formatter;
-    return '${f.wN} ${f.d} ${f.mN} ${f.yyyy}';
-  }
-
   Article(
       {this.id,
       this.title,
@@ -41,10 +36,7 @@ class Article {
     Jalali j = Jalali.fromDateTime(DateTime.parse(json["date"]));
     final f = j.formatter;
     String date = '${f.d} ${f.mN} ${f.yyyy}';
-
-    Jiffy.locale("fa").then((value) {
-      String timeAgo = Jiffy(json['date']).add(hours: 6).fromNow();
-    });
+    Jiffy.locale("fa");
     return Article(
         id: json['id'] ?? 0,
         title: json['title']['rendered'] ?? '',
@@ -61,7 +53,7 @@ class Article {
         //Jiffy.locale("fa").then((value) {
         //     DateTime dateTime = Jiffy("10 Mart 2021 16:38", "dd MMMM yyyy hh:mm").dateTime;
         // });
-        timeAgo: Jiffy(json['date']).add(hours: 6).fromNow(),
+        timeAgo: Jiffy(json["date"]).fromNow(),
         link: json['link'] ?? 'empty',
         category: json["custom"]["categories"][0]["name"] ?? '',
         catId: json["custom"]["categories"][0]["cat_ID"] ?? 0,

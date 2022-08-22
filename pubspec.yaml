@@ -3,7 +3,7 @@ description: Kermaneno Mobile Application
 
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
-version: 1.7.1+8
+version: 1.7.2+9
 
 environment:
   sdk: '>=2.12.0 <3.0.0'

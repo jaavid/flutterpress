@@ -52,17 +52,17 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
     final UserBloc ub = Provider.of<UserBloc>(context, listen: false);
     if (userNameCtrl.text.isEmpty) {
       _btnController.reset();
-      openSnacbar(scaffoldKey, 'Username is required');
+      openSnacbar(scaffoldKey, 'Username is required'.tr());
     } else if (emailCtrl.text.isEmpty) {
       _btnController.reset();
-      openSnacbar(scaffoldKey, 'Email is required');
+      openSnacbar(scaffoldKey, 'Email is required'.tr());
     } else if (passwordCtrl.text.isEmpty) {
       _btnController.reset();
-      openSnacbar(scaffoldKey, 'Password is required');
+      openSnacbar(scaffoldKey, 'Password is required'.tr());
     } else if (_checkboxTicked == false) {
       _btnController.reset();
       openSnacbar(
-          scaffoldKey, 'Please accept the terms & conditions to continue');
+          scaffoldKey, 'Please accept the terms & conditions to continue'.tr());
     } else {
       AppService().checkInternet().then((hasInternet) async {
         if (!hasInternet!) {
@@ -152,7 +152,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
                       fontWeight: FontWeight.w700,
                       wordSpacing: 1,
                       letterSpacing: -0.7),
-                ),
+                ).tr(),
                 Container(
                   height: 50,
                   margin: EdgeInsets.only(top: 10, bottom: 30),
@@ -173,6 +173,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
                         )),
                     controller: userNameCtrl,
                     keyboardType: TextInputType.text,
+                    textAlign: TextAlign.left,
                   ),
                 ),
                 Text(
@@ -182,7 +183,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
                       fontWeight: FontWeight.w700,
                       wordSpacing: 1,
                       letterSpacing: -0.7),
-                ),
+                ).tr(),
                 Container(
                   height: 50,
                   margin: EdgeInsets.only(top: 10, bottom: 30),
@@ -202,7 +203,8 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
                           size: 20,
                         )),
                     controller: emailCtrl,
-                    keyboardType: TextInputType.text,
+                    keyboardType: TextInputType.emailAddress,
+                    textAlign: TextAlign.left,
                   ),
                 ),
                 Text(
@@ -212,7 +214,7 @@ class _CreateAccountPageState extends State<CreateAccountPage> {
                       fontWeight: FontWeight.w700,
                       wordSpacing: 1,
                       letterSpacing: -0.7),
-                ),
+                ).tr(),
                 Container(
                   height: 50,
                   margin: EdgeInsets.only(top: 10, bottom: 10),
