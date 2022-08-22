@@ -53,3 +53,7 @@ bundlesigner-0.1.12.jar
 no-icon.png
 pepk.jar
 google-services.json
+*.keystore
+*.old
+*.jks
+/unnamed.jpeg
