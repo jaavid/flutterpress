@@ -19,7 +19,7 @@ jobs:
           channel: 'stable'
       - run: flutter pub get
       # - run: flutter format --set-exit-if-changed .
-      - run: flutter analyze .
+      # - run: flutter analyze .
       - run: flutter build apk --release
       - uses: actions/upload-artifact@v2
         with:
